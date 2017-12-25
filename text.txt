@@ -1,0 +1,45 @@
+@Header <<stdio.h>>
+@Header <<math.h>>
+
+VOID  Main[]
+
+Begin
+     
+        INTGR a|b|c|d|e!
+       
+        FLOAT g|h|i !
+       
+        b EQU 10 !
+        a EQU 12 !
+
+        IF(b GT a)
+	Begin
+		a PLUS b !
+	Finish
+	
+       IF (b GT a)
+       Begin
+            b PLUS a!        
+       Finish
+       ELSE
+       Begin
+           b MINUS a!
+       Finish
+      
+
+ 
+
+
+
+        FOR (1 | 5)
+        Begin
+             a EQU b PLUS c !
+        Finish
+
+        e EQU a PLUS b !
+        e EQU a MUL b ! 
+        e EQU a MOD b !
+        e EQU 2 POW 3 !
+      
+
+Finish
